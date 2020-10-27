@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <title>MadPaaSU - Madplaner og opskrifter til dig på SU!</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"> <!--retter layoutet til ift browsertype-->
+    <link rel="stylesheet" href="../madblad/css/magasin_style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous"> <!--Open source webside med iconer, gør at jeg kan bruge deres ikoner-->
+    <link href="https://fonts.googleapis.com/css?family=Prompt" rel="stylesheet"> <!--DEN VALGTE GOOGLE FONT-->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script> <!--Tillader mig at kunne åbne/lukke min navbar-->
+    <script src="../madblad/js_online_mag.js"></script>      <!--Javascript-->
+
+</head>
+
+<!--NAVIGATIONSBAR - START-->
+
+<body>
+    <nav class="nav-wrapper">                                                       <!--PARENT ELEMENT-->
+        <div class="logo" title="Madplaner og inspiration til din hverdag">                                         <!--CHILD-->
+            <i class="fas fa-utensils"></i> <strong>Mad På SU</strong> 
+        </div>
+            <div class="burger-icon"><i class="fas fa-bars"></i> MENU</div>         <!--CHILD-->
+            <ul class="nav-items main-nav mobile-hide">                             <!--CHILD-->
+                <li class="list-item"><a href="../madblad/index.html" title="Forside" >Home</a></li>
+                <li class="list-item"><a href="../madblad/madplan.html "title="Madplaner">Madplaner</a></li>
+                <li class="list-item"><a href="../madblad/opskrifter.html" title="Opskrifter">Opskrifter</a></li>
+                <li class="list-item"><a href="../madblad/basislager.html" title="Basislager">Basislager</a></li>
+                <li class="list-item"><a href="../madblad/tema.html" title="Temaer">Temaer</a></li>
+                <li class="list-item"><a href="#" title="Tips & Tricks">Tips & Tricks</a></li>
+            </ul>
+    </nav>
+    <!--NAVIGATIONSBAR - SLUT-->
+
+    <!--MAIN INDHOLD MED "SIDEBAR" START-->
+
+    <div class="main-wrapper">
+        <div class="wrapper">                                                               <!-- VIRKER SOM PARENT ELEMENT FOR ALT INDHOLDET-->
+            <div class="featured" id="tips-banner" title="Få tips og tricks de mange problematikker man kan rende ind i, i køkkenet">
+                
+                    <h1>Tips & Tricks</h1>
+                    <span id="hero-date"> Få tips til madlavning, opbevaring o.l</span> 
+                </div>
+
+                <div class="sub-featured">
+                    <div class="sub1" id="tips-side1" title="Hjælp til at stege den perfekte fiskefilet"><a href="../madblad/underkonstruktion.html"><h3>Hvordan steger man fisk?</h3></a></div>
+                    
+                    <div class="sub2" id="tips-side2" title="Må man spise rå æggeblommer? Og hvilke retter kan de bruges til" ><a href="../madblad/underkonstruktion.html"><h3>Må jeg spise rå æggeblommer?</h3></a> </div>
+
+                    <div class="sub3" id="tips-side3" title="Træt af at skrubbe gryder efter fastbrændte madrester?"> <a href="../madblad/underkonstruktion.html"><h3>Trick til at få brændtemadrester af grydebunden</h3></a> </div>
+                </div>
+
+                <div class="main-content">
+                    
+                   <p>Vi har samlet en række tips & tricks som forhåbentlig kan lette din færden i køkkenet en smule. Det er en samling af de tips & tricks som vi selv finder mest nyttige og derfor gerne vil dele. Der er f.eks. mulighed for at spare lidt penge (læs nedenstående tip) eller lære hvordan man koger kartofler (hvilket er sværere end man lige tror).
+                      <h3>Dagens tip</h3>
+                      Krydderurter kan du med fordel spare en del penge på selv at dyrke og det kræver ikke en masse. Du kan omplante de forskellige små duske du alligevel køber i dagligvarebutikkerne til dit basislager og på den måde få dem til at vare længere.
+                      <br><br>
+                        <h3>Alt du skal bruge er:</h3>
+                        <i class="fas fa-utensils"></i> 1. Forskellige krydderurter (koster typisk mellem 7 og 15 kr)<br>
+                        <i class="fas fa-utensils"></i> 2. En lille altankasse, eller potte du kan stille i en vindueskarm.<br>
+                        <i class="fas fa-utensils"></i> 3. Lidt jord (kan købes for ca. 20kr i <a href="https://www.jemogfix.dk/plantesaek-40-liter-groenne-fingre/2180/9037452/">Jem & Fix</a><br>
+                        <i class="fas fa-utensils"></i> 4. Tålmodighed, en smule vand og lidt sollys.<br><br>
+                        <img src="../madblad/images/madbilleder/tips/pasta.jpeg" alt="Pasta med krydderurter" style="max-block-size: 200px;"><br>
+                         Du kan desuden bruge langt de fleste krydderurter, både friske og tørre, for et ekstra pift ovenpå en ret. Er særdeles velegnede til pastaretter.</h4>
+                </div>
+                <div class="main-sidebar" title="Her har vi samlet nogle af de forskellige opskrifter vi har at byde på">
+                    <div class="email-digest-subscription">
+      
+                        <ul>
+                            <h1>Tips</h1>
+                            <i class="fas fa-utensils"></i> <li><a href="#"> Sådan undgår du klumper i salt og sukker</a></li><br><br>
+                            <i class="fas fa-utensils"></i><li><a href="#"> Sådan koger du kartofler</a></li><br><br>
+                            <i class="fas fa-utensils"></i></i><li><a href="#"> Sådan koger du ris</a></li><br><br>
+                            <i class="fas fa-utensils"></i></i><li><a href="#"> Sådan fryser du rå æg</a></li><br><br>
+                            <i class="fas fa-utensils"></i></i><li><a href="#"> Sådan fjernes den bitre smag (nogle) agurker har</a></li><br><br>
+                            <i class="fas fa-utensils"></i></i><li><a href="#"> Sådan laver du flødeskum UDEN piskeris!</a></li><br><br>
+                        </ul>
+ 
+                        <ul>
+                            <h1>Tricks</h1>
+                            <i class="fas fa-utensils"></i> <li><a href="#"> 7 måder at spare penge på frokosten</a></li><br><br>
+                            <i class="fas fa-utensils"></i><li><a href="#"> 3 tricks til at undgå madspild</a></li><br><br>
+                            <i class="fas fa-utensils"></i></i><li><a href="#"> Hvad kan jeg bruge mine rester til?</a></li><br><br>
+                            <i class="fas fa-utensils"></i></i><li><a href="#"> Få mere ud af dit rugbrød.</a></li><br><br>
+                            <i class="fas fa-utensils"></i></i><li><a href="#"> Hold kagen frisk længere.</a></li><br><br>
+                            <i class="fas fa-utensils"></i></i><li><a href="#"> Red din sovs hvid den er blevet for sød eller for salt.</a></li><br><br>
+                        </ul>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--MAIN INDHOLD MED "SIDEBAR"- SLUT-->
+
+
+    <!--FOOTER INDHOLD - START-->
+
+    <footer class="footer">
+        <div class="foot1">
+            <h3 class="logo">Mad På SU</h3>
+            <p>Opdigtetvej nr. 43</p>
+            <p>Aarhus, Danmark</p>
+            <p>+45 56987293</p>
+            <p>Kontakt@madpaasu.dk</p>
+        </div>
+    
+        <div class="foot2">
+            <h4>REDAKTIONENS VALG</h4>
+            <ul class="fa-ul social-footer">
+            <li><span class="fa-li" ><i class="fas fa-utensils"></i></span><a href="../madblad/underkonstruktion.html">Isbåde</a></li>
+            <li><span class="fa-li"><i class="fas fa-utensils"></i></span><a href="../madblad/underkonstruktion.html">Snacks</a></li>
+            <li><span class="fa-li"><i class="fas fa-utensils"></i></span><a href="../madblad/underkonstruktion.html">Butterdej</a></li>
+            <li><span class="fa-li"><i class="fas fa-utensils"></i></span><a href="../madblad/underkonstruktion.html">Fiskefilet</a></li>
+            </ul>
+        </div>
+    
+        <div class="foot3">
+            <h4>POPULÆRE OPSKRIFTER</h4>
+            <ul class="fa-ul social-footer">
+                <li><span class="fa-li" ><i class="fas fa-utensils"></i></span><a href="../madblad/underkonstruktion.html">Giftkage med chokolade og nøddekrokant</a></li>
+                <li><span class="fa-li"><i class="fas fa-utensils"></i></span><a href="../madblad/underkonstruktion.html">Heksemuffins med nødder og is</a></li>
+                <li><span class="fa-li"><i class="fas fa-utensils"></i></span> <a href="../madblad/underkonstruktion.html">Chokoladekage med glasur</a></li>
+                <li><span class="fa-li"><i class="fas fa-utensils"></i></span><a href="../madblad/underkonstruktion.html">Grønsagswok med dampet fisk og ris</a></li>
+                </ul>
+        </div>
+    
+        <div class="foot4">
+            <h4>POPULÆRE TEMAER</h4>
+            <ul class="fa-ul social-footer">
+                <li><span class="fa-li" ><i class="fas fa-utensils"></i></span><a href="../madblad/underkonstruktion.html">Påske</a></li>
+                <li><span class="fa-li"><i class="fas fa-utensils"></i></span><a href="../madblad/underkonstruktion.html">Halloween</a></li>
+                <li><span class="fa-li"><i class="fas fa-utensils"></i></span><a href="../madblad/underkonstruktion.html">Jul</a></li>
+                <li><span class="fa-li"><i class="fas fa-utensils"></i></span><a href="../madblad/underkonstruktion.html">Nytår</a></li>
+                </ul>
+        </div>
+    
+        <p class="copyright">MadPaaSU &copy; 2020</p>
+        </footer>
+
+     <!--FOOTER INDHOLD - SLUT-->
+</body>
+</html>
