@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <title>MadPaaSU - Siden er under opbygning</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"> <!--retter layoutet til ift browsertype-->
+    <link rel="stylesheet" href="../madblad/css/magasin_style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous"> <!--Open source webside med iconer, gør at jeg kan bruge deres ikoner-->
+    <link href="https://fonts.googleapis.com/css?family=Prompt" rel="stylesheet"> <!--DEN VALGTE GOOGLE FONT-->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script> <!--Tillader mig at kunne åbne/lukke min navbar-->
+    <script src="../madblad/js_online_mag.js"></script>      <!--Javascript-->
+
+</head>
+
+<!--NAVIGATIONSBAR - START-->
+
+<body>
+    <nav class="nav-wrapper">                                                       <!--PARENT ELEMENT-->
+        <div class="logo" title="Madplaner og inspiration til din hverdag">                                                          <!--CHILD-->
+            <i class="fas fa-utensils"></i> <strong>Mad På SU</strong> 
+        </div>
+            <div class="burger-icon"><i class="fas fa-bars"></i> MENU</div>         <!--CHILD-->
+            <ul class="nav-items main-nav mobile-hide">                             <!--CHILD-->
+                <li class="list-item"><a href="../madblad/index.html" title="Forside" >Home</a></li>
+                <li class="list-item"><a href="../madblad/madplan.html" title="Madplaner">Madplaner</a></li>
+                <li class="list-item"><a href="../madblad/opskrifter.html" title="Opskrifter">Opskrifter</a></li>
+                <li class="list-item"><a href="../madblad/basislager.html" title="Basislager">Basislager</a></li>
+                <li class="list-item"><a href="../madblad/tema.html" title="Temaer">Temaer</a></li>
+                <li class="list-item"><a href="../madblad/tipsogtricks.html" title="Tips & Tricks">Tips & Tricks</a></li>
+            </ul>
+    </nav>
+    <!--NAVIGATIONSBAR - SLUT-->
+
+    <!--MAIN INDHOLD MED "SIDEBAR" START-->
+
+    <div class="main-wrapper">
+        <div class="wrapper">                                                               <!-- VIRKER SOM PARENT ELEMENT FOR ALT INDHOLDET-->
+            <div class="featured" id="konstruktion-banner" title="Kommer snart">
+                
+                    <h1>Er under opbygning</a></h1>
+                    <span id="hero-date"> Oktober, 2020</span> 
+                </div>
+
+                <div class="sub-featured">
+                    <div class="sub1" id="konstruktion-side1">
+                        <h3>Kommer snart!</h3>
+                    </div>
+
+                    <div class="sub2" id="konstruktion-side2" >
+                        <h3>Kommer snart!</h3>
+                    </div>
+
+                    <div class="sub3" id="konstruktion-side3">
+                        <h3>Kommer snart!</h3>
+                    </div>
+                </div>
+
+                <div class="main-content">
+                    <h1>UPS!</h1>
+                    <p> Denne side er desværre stadigvæk i ovnen, men prøv at komme tilbage om nogle dage.<br>
+                        Gode sider tager, lige som god mad, tid. I mellemtiden kan du jo surfe lidt rundt på de andre sider og se om der ikke skulle være noget der kunne fange din interesse.<br>
+                        Du kan også tilmelde dig vores nyhedbrev og på den måde modtage nyheder fra siden, sammen med en superlækker madplan.<br><br>
+                       God fornøjelse!<br>
+                       Mad På SU
+                    </p>
+                   
+                </div>
+                <div class="main-sidebar" title="Tilmed dig vores spændende nyhedsbrev">
+                    <div class="email-digest-subscription">
+                    <h2>NYHEDSBREV</h2>
+                    <p>Tilmeld dig vores nyhedsbrev og modtag hver søndag den kommende uges madplan inkl. indkøbsliste og pris</p>
+                    <p>Jeg giver, ved at indtaste min e-mail, samtykke til at MadPaaSU må sende mig e-mails og lignende meddeler vedrørende madplanen,  opskrifter nyheder og servicemeddelelser om min brug af MadPaaSU. Jeg kan til enhver tid tilbagekalde dette samtykke ved at kontakte MadPaaSU.dk Jeg accepterer samtidigt, at MadPaaSU kan behandle personoplysninger om mig nærmere anført i disse vilkår og betingelser og den tilhørende persondatapolitik.</p>
+                    <form id="subscribe" action="#" accept-charset="UTF-8" method="post">
+                        <input placeholder="Email Address" class="email" name="email" id="email" type="email">
+                        <button name="button" type="submit" class="subscribe">Tilmeld mig</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--MAIN INDHOLD MED "SIDEBAR"- SLUT-->
+
+
+    <!--FOOTER INDHOLD - START-->
+
+    <footer class="footer">
+        <div class="foot1">
+            <h3 class="logo">Mad På SU</h3>
+            <p>Opdigtetvej nr. 43</p>
+            <p>Aarhus, Danmark</p>
+            <p>+45 56987293</p>
+            <p>Kontakt@madpaasu.dk</p>
+        </div>
+    
+        <div class="foot2">
+            <h4>REDAKTIONENS VALG</h4>
+            <ul class="fa-ul social-footer">
+            <li><span class="fa-li" ><i class="fas fa-utensils"></i></span><a href="../madblad/underkonstruktion.html">Isbåde</a></li>
+            <li><span class="fa-li"><i class="fas fa-utensils"></i></span><a href="../madblad/underkonstruktion.html">Snacks</a></li>
+            <li><span class="fa-li"><i class="fas fa-utensils"></i></span><a href="../madblad/underkonstruktion.html">Butterdej</a></li>
+            <li><span class="fa-li"><i class="fas fa-utensils"></i></span><a href="../madblad/underkonstruktion.html">Fiskefilet</a></li>
+            </ul>
+        </div>
+    
+        <div class="foot3">
+            <h4>POPULÆRE OPSKRIFTER</h4>
+            <ul class="fa-ul social-footer">
+                <li><span class="fa-li" ><i class="fas fa-utensils"></i></span><a href="../madblad/underkonstruktion.html">Giftkage med chokolade og nøddekrokant</a></li>
+                <li><span class="fa-li"><i class="fas fa-utensils"></i></span><a href="../madblad/underkonstruktion.html">Heksemuffins med nødder og is</a></li>
+                <li><span class="fa-li"><i class="fas fa-utensils"></i></span> <a href="../madblad/underkonstruktion.html">Chokoladekage med glasur</a></li>
+                <li><span class="fa-li"><i class="fas fa-utensils"></i></span><a href="../madblad/underkonstruktion.html">Grønsagswok med dampet fisk og ris</a></li>
+                </ul>
+        </div>
+    
+        <div class="foot4">
+            <h4>POPULÆRE TEMAER</h4>
+            <ul class="fa-ul social-footer">
+                <li><span class="fa-li" ><i class="fas fa-utensils"></i></span><a href="../madblad/underkonstruktion.html">Påske</a></li>
+                <li><span class="fa-li"><i class="fas fa-utensils"></i></span><a href="../madblad/underkonstruktion.html">Halloween</a></li>
+                <li><span class="fa-li"><i class="fas fa-utensils"></i></span><a href="../madblad/underkonstruktion.html">Jul</a></li>
+                <li><span class="fa-li"><i class="fas fa-utensils"></i></span><a href="../madblad/underkonstruktion.html">Nytår</a></li>
+                </ul>
+        </div>
+    
+        <p class="copyright">MadPaaSU &copy; 2020</p>
+        </footer>
+
+     <!--FOOTER INDHOLD - SLUT-->
+</body>
+</html>
