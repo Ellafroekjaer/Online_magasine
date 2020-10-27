@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <title>MadPaaSU - Opskrifter inddelt efter tema</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"> <!--retter layoutet til ift browsertype-->
+    <link rel="stylesheet" href="../madblad/css/magasin_style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous"> <!--Open source webside med iconer, gør at jeg kan bruge deres ikoner-->
+    <link href="https://fonts.googleapis.com/css?family=Prompt" rel="stylesheet"> <!--DEN VALGTE GOOGLE FONT-->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script> <!--Tillader mig at kunne åbne/lukke min navbar-->
+    <script src="../madblad/js_online_mag.js"></script>      <!--Javascript-->
+
+</head>
+
+<!--NAVIGATIONSBAR - START-->
+
+<body>
+    <nav class="nav-wrapper">                                                       <!--PARENT ELEMENT-->
+        <div class="logo" title="Madplaner og inspiration til din hverdag">         <!--CHILD-->
+            <i class="fas fa-utensils"></i> <strong>Mad På SU</strong> 
+        </div>
+            <div class="burger-icon"><i class="fas fa-bars"></i> MENU</div>         <!--CHILD-->
+            <ul class="nav-items main-nav mobile-hide">                             <!--CHILD-->
+                <li class="list-item"><a href="../madblad/index.html" title="Forside" >Home</a></li>
+                <li class="list-item"><a href="../madblad/madplan.html "title="Madplaner">Madplaner</a></li>
+                <li class="list-item"><a href="../madblad/opskrifter.html" title="Opskrifter">Opskrifter</a></li>
+                <li class="list-item"><a href="../madblad/basislager.html" title="Basislager">Basislager</a></li>
+                <li class="list-item"><a href="#" title="Temaer">Temaer</a></li>
+                <li class="list-item"><a href="../madblad/tipsogtricks.html" title="Tips & Tricks">Tips & Tricks</a></li>
+            </ul>
+    </nav>
+    <!--NAVIGATIONSBAR - SLUT-->
+
+    <!--MAIN INDHOLD MED "SIDEBAR" START-->
+
+    <div class="main-wrapper">
+        <div class="wrapper">                                                          <!-- VIRKER SOM PARENT ELEMENT FOR ALT INDHOLDET-->
+            <div class="featured" id="tema-banner" title="Lad dig inspirere af diverse temaer">
+                
+                    <h1>Mad Med Tema</h1>
+                    <span id="hero-date"> Vælg en ret ud fra vores mange forskellige temaer</span> 
+                </div>
+
+                <div class="sub-featured">
+                    <div class="sub1" id="tema-side1" title="Simple retter til dig der lige er flyttet for dig selv og ønsker at spare penge"><a href="../madblad/underkonstruktion.html"><h3>Højdepunkt: Flytte-hjemmefra-mad</h3></a></div>
+                    <div class="sub2" id="tema-side2" title="Retter velegnet til at pleje den snask-sultne mave ovenpå en god aften i byen" ><a href="../madblad/underkonstruktion.html"><h3>Højdepunkt: Tømmermændsretter</h3></a></div>
+                    <div class="sub3" id="tema-side3" title="Lette snacks enhver kan lave og som kan stille den lille sult"><a href="../madblad/underkonstruktion.html"><h3>Højdepunkt: Simple Snacks</h3></a></div>
+                </div>
+
+                <div class="main-content">
+                    
+                   <p>
+                    Efteråret er over os, og derfor har vi kastet os over alle de lækre råvarer som årstiden har at byde på. Der vil være fokus på opskrifter med græskar, æbler, pærer og diverse bær. Dette er alle råvarer der lige nu er i sæson, og derfor er særdeles velegnede til de kommende kolde vintermåneders bage-og madprojekter.<br><br>
+                    Er du ikke på jagt efter sæson-venlige opskrifter, så er der mange andre spændende temaer at dykke ned i. Du finder f.eks. temaer som:<br>
+                    Jul, Simremad, tømmermænd og mange flere.<br>
+                    Så dyk ned i de forskellige universer, i listen til højre og lad dig inspirere.
+
+                   </p>
+                    
+                </div>
+                <div class="main-sidebar" title="Her har vi samlet nogle af de forskellige opskrifter vi har at byde på">
+                    <div class="email-digest-subscription">
+                        <h1>Temaer:</h1>
+
+                        <p>
+                            <h2>Årstider og højtider</h2>
+                            <a href="../madblad/underkonstruktion.html">Jul</a> <br>
+                            <a href="../madblad/underkonstruktion.html">Halloween</a><br>
+                            <a href="../madblad/underkonstruktion.html">Påske</a> <br>
+                            <a href="../madblad/underkonstruktion.html">Nytår</a> <br>
+                            <a href="../madblad/underkonstruktion.html">Midsommer</a> <br>
+                            <a href="../madblad/underkonstruktion.html">Valentins dag</a> <br>
+                            <br>
+
+                            <h2>Blandede </h2>
+                            <a href="../madblad/underkonstruktion.html">Tømmermændsmad</a> <br>
+                            <a href="../madblad/underkonstruktion.html">Simremad</a> <br>
+                            <a href="../madblad/underkonstruktion.html">Velegnede til frost</a> <br>
+                            <a href="../madblad/underkonstruktion.html">Større portioner</a> <br>
+
+                            <h2>Bagværk</h2>
+                            <a href="../madblad/underkonstruktion.html">Kage</a> <br>
+                            <a href="../madblad/underkonstruktion.html">Småkager</a> <br>
+                            <a href="../madblad/underkonstruktion.html">Brød</a> <br>
+                            <a href="../madblad/underkonstruktion.html">Kiks, müsli og knækbrød</a> <br>
+                            <a href="../madblad/underkonstruktion.html">"Sunde kager"</a> <br>
+                            <br>
+
+                            <h2>Veganer/vegetarvenlige retter </h2>
+                            <a href="../madblad/underkonstruktion.html">Vegetarretter</a> <br>
+                            <a href="../madblad/underkonstruktion.html">Veganskeretter</a> <br>
+                            <a href="../madblad/underkonstruktion.html">Kage uden smør, æg og mælk</a> <br>
+                            <a href="../madblad/underkonstruktion.html">Byg-selv-burger med ærtebøffer</a> <br>
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--MAIN INDHOLD MED "SIDEBAR"- SLUT-->
+
+
+    <!--FOOTER INDHOLD - START-->
+
+    <footer class="footer">
+        <div class="foot1">
+            <h3 class="logo">Mad På SU</h3>
+            <p>Opdigtetvej nr. 43</p>
+            <p>Aarhus, Danmark</p>
+            <p>+45 56987293</p>
+            <p>Kontakt@madpaasu.dk</p>
+        </div>
+    
+        <div class="foot2">
+            <h4>REDAKTIONENS VALG</h4>
+            <ul class="fa-ul social-footer">
+            <li><span class="fa-li" ><i class="fas fa-utensils"></i></span><a href="../madblad/underkonstruktion.html">Isbåde</a></li>
+            <li><span class="fa-li"><i class="fas fa-utensils"></i></span><a href="../madblad/underkonstruktion.html">Snacks</a></li>
+            <li><span class="fa-li"><i class="fas fa-utensils"></i></span><a href="../madblad/underkonstruktion.html">Butterdej</a></li>
+            <li><span class="fa-li"><i class="fas fa-utensils"></i></span><a href="../madblad/underkonstruktion.html">Fiskefilet</a></li>
+            </ul>
+        </div>
+    
+        <div class="foot3">
+            <h4>POPULÆRE OPSKRIFTER</h4>
+            <ul class="fa-ul social-footer">
+                <li><span class="fa-li" ><i class="fas fa-utensils"></i></span><a href="../madblad/underkonstruktion.html">Giftkage med chokolade og nøddekrokant</a></li>
+                <li><span class="fa-li"><i class="fas fa-utensils"></i></span><a href="../madblad/underkonstruktion.html">Heksemuffins med nødder og is</a></li>
+                <li><span class="fa-li"><i class="fas fa-utensils"></i></span> <a href="../madblad/underkonstruktion.html">Chokoladekage med glasur</a></li>
+                <li><span class="fa-li"><i class="fas fa-utensils"></i></span><a href="../madblad/underkonstruktion.html">Grønsagswok med dampet fisk og ris</a></li>
+                </ul>
+        </div>
+    
+        <div class="foot4">
+            <h4>POPULÆRE TEMAER</h4>
+            <ul class="fa-ul social-footer">
+                <li><span class="fa-li" ><i class="fas fa-utensils"></i></span><a href="../madblad/underkonstruktion.html">Påske</a></li>
+                <li><span class="fa-li"><i class="fas fa-utensils"></i></span><a href="../madblad/underkonstruktion.html">Halloween</a></li>
+                <li><span class="fa-li"><i class="fas fa-utensils"></i></span><a href="../madblad/underkonstruktion.html">Jul</a></li>
+                <li><span class="fa-li"><i class="fas fa-utensils"></i></span><a href="../madblad/underkonstruktion.html">Nytår</a></li>
+                </ul>
+        </div>
+    
+        <p class="copyright">MadPaaSU &copy; 2020</p>
+        </footer>
+
+     <!--FOOTER INDHOLD - SLUT-->
+</body>
+</html>
