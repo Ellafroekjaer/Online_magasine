@@ -1,0 +1,844 @@
+/* Downloadet CSS */
+
+ /*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+   ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+html {
+    line-height: 1.15; /* 1 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+  }
+  
+  /* Sections
+     ========================================================================== */
+  
+  /**
+   * Remove the margin in all browsers.
+   */
+  
+  body {
+    margin: 0;
+  }
+  
+  /**
+   * Correct the font size and margin on `h1` elements within `section` and
+   * `article` contexts in Chrome, Firefox, and Safari.
+   */
+  
+  h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+  }
+  
+  /* Grouping content
+     ========================================================================== */
+  
+  /**
+   * 1. Add the correct box sizing in Firefox.
+   * 2. Show the overflow in Edge and IE.
+   */
+  
+  hr {
+    box-sizing: content-box; /* 1 */
+    height: 0; /* 1 */
+    overflow: visible; /* 2 */
+  }
+  
+  /**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+  
+  pre {
+    font-family: monospace, monospace; /* 1 */
+    font-size: 1em; /* 2 */
+  }
+  
+  /* Text-level semantics
+     ========================================================================== */
+  
+  /**
+   * Remove the gray background on active links in IE 10.
+   */
+  
+  a {
+    background-color: transparent;
+  }
+  
+  /**
+   * 1. Remove the bottom border in Chrome 57-
+   * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+   */
+  
+  abbr[title] {
+    border-bottom: none; /* 1 */
+    text-decoration: underline; /* 2 */
+    text-decoration: underline dotted; /* 2 */
+  }
+  
+  /**
+   * Add the correct font weight in Chrome, Edge, and Safari.
+   */
+  
+  b,
+  strong {
+    font-weight: bolder;
+  }
+  
+  /**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+  
+  code,
+  kbd,
+  samp {
+    font-family: monospace, monospace; /* 1 */
+    font-size: 1em; /* 2 */
+  }
+  
+  /**
+   * Add the correct font size in all browsers.
+   */
+  
+  small {
+    font-size: 80%;
+  }
+  
+  /**
+   * Prevent `sub` and `sup` elements from affecting the line height in
+   * all browsers.
+   */
+  
+  sub,
+  sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+  }
+  
+  sub {
+    bottom: -0.25em;
+  }
+  
+  sup {
+    top: -0.5em;
+  }
+  
+  /* Embedded content
+     ========================================================================== */
+  
+  /**
+   * Remove the border on images inside links in IE 10.
+   */
+  
+  img {
+    border-style: none;
+  }
+  
+  /* Forms
+     ========================================================================== */
+  
+  /**
+   * 1. Change the font styles in all browsers.
+   * 2. Remove the margin in Firefox and Safari.
+   */
+  
+  button,
+  input,
+  optgroup,
+  select,
+  textarea {
+    font-family: inherit; /* 1 */
+    font-size: 100%; /* 1 */
+    line-height: 1.15; /* 1 */
+    margin: 0; /* 2 */
+  }
+  
+  /**
+   * Show the overflow in IE.
+   * 1. Show the overflow in Edge.
+   */
+  
+  button,
+  input { /* 1 */
+    overflow: visible;
+  }
+  
+  /**
+   * Remove the inheritance of text transform in Edge, Firefox, and IE.
+   * 1. Remove the inheritance of text transform in Firefox.
+   */
+  
+  button,
+  select { /* 1 */
+    text-transform: none;
+  }
+  
+  /**
+   * Correct the inability to style clickable types in iOS and Safari.
+   */
+  
+  button,
+  [type="button"],
+  [type="reset"],
+  [type="submit"] {
+    -webkit-appearance: button;
+  }
+  
+  /**
+   * Remove the inner border and padding in Firefox.
+   */
+  
+  button::-moz-focus-inner,
+  [type="button"]::-moz-focus-inner,
+  [type="reset"]::-moz-focus-inner,
+  [type="submit"]::-moz-focus-inner {
+    border-style: none;
+    padding: 0;
+  }
+  
+  /**
+   * Restore the focus styles unset by the previous rule.
+   */
+  
+  button:-moz-focusring,
+  [type="button"]:-moz-focusring,
+  [type="reset"]:-moz-focusring,
+  [type="submit"]:-moz-focusring {
+    outline: 1px dotted ButtonText;
+  }
+  
+  /**
+   * Correct the padding in Firefox.
+   */
+  
+  fieldset {
+    padding: 0.35em 0.75em 0.625em;
+  }
+  
+  /**
+   * 1. Correct the text wrapping in Edge and IE.
+   * 2. Correct the color inheritance from `fieldset` elements in IE.
+   * 3. Remove the padding so developers are not caught out when they zero out
+   *    `fieldset` elements in all browsers.
+   */
+  
+  legend {
+    box-sizing: border-box; /* 1 */
+    color: inherit; /* 2 */
+    display: table; /* 1 */
+    max-width: 100%; /* 1 */
+    padding: 0; /* 3 */
+    white-space: normal; /* 1 */
+  }
+  
+  /**
+   * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+   */
+  
+  progress {
+    vertical-align: baseline;
+  }
+  
+  /**
+   * Remove the default vertical scrollbar in IE 10+.
+   */
+  
+  textarea {
+    overflow: auto;
+  }
+  
+  /**
+   * 1. Add the correct box sizing in IE 10.
+   * 2. Remove the padding in IE 10.
+   */
+  
+  [type="checkbox"],
+  [type="radio"] {
+    box-sizing: border-box; /* 1 */
+    padding: 0; /* 2 */
+  }
+  
+  /**
+   * Correct the cursor style of increment and decrement buttons in Chrome.
+   */
+  
+  [type="number"]::-webkit-inner-spin-button,
+  [type="number"]::-webkit-outer-spin-button {
+    height: auto;
+  }
+  
+  /**
+   * 1. Correct the odd appearance in Chrome and Safari.
+   * 2. Correct the outline style in Safari.
+   */
+  
+  [type="search"] {
+    -webkit-appearance: textfield; /* 1 */
+    outline-offset: -2px; /* 2 */
+  }
+  
+  /**
+   * Remove the inner padding in Chrome and Safari on macOS.
+   */
+  
+  [type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+  }
+  
+  /**
+   * 1. Correct the inability to style clickable types in iOS and Safari.
+   * 2. Change font properties to `inherit` in Safari.
+   */
+  
+  ::-webkit-file-upload-button {
+    -webkit-appearance: button; /* 1 */
+    font: inherit; /* 2 */
+  }
+  
+  /* Interactive
+     ========================================================================== */
+  
+  /*
+   * Add the correct display in Edge, IE 10+, and Firefox.
+   */
+  
+  details {
+    display: block;
+  }
+  
+  /*
+   * Add the correct display in all browsers.
+   */
+  
+  summary {
+    display: list-item;
+  }
+  
+  /* Misc
+     ========================================================================== */
+  
+  /**
+   * Add the correct display in IE 10+.
+   */
+  
+  template {
+    display: none;
+  }
+  
+  /**
+   * Add the correct display in IE 10.
+   */
+  
+  [hidden] {
+    display: none;
+  }
+  
+  
+/* NORMALIZE STYLESHEET - SLUT */
+  
+  
+  
+  
+/* START PÅ EGEN CSS */
+  * {
+    box-sizing: border-box;
+  
+  }
+  body{
+      font-family: 'Prompt', sans-serif;            /* Valgte font stil */
+      background-image:url(../images/baggrund/watermelon_light_background.jpg);
+      background-size:cover;                        /* På denne måde sikrer man sig at baggrunden altid fylder det hele */
+  }
+  a {
+    color: inherit;
+  }
+  
+  ul li {
+    display: inline;
+    list-style-type: none;
+  }
+  
+  .social-footer li{
+      display:block;
+  }
+  .svg-inline--fa {
+    color: rgba(0, 0, 0, 0.4);
+  }
+  
+  .main-wrapper {                       /* SØRGER FOR AT SIDENS LAYOUT ER CENTRERET NÅR DER SKALERES OP OG NED */
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+   
+  .nav-wrapper {                            
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px 20px;
+    margin-top: 30px;
+    display: grid;                          /* VIRKER SOM GRID*/
+    grid-template-columns: 30% auto;        
+  }
+
+  .nav-wrapper ul li{
+      display: inline;
+      list-style-type: none;
+  }
+  
+  .nav-wrapper a{
+      letter-spacing: .1em;
+      text-decoration: none;
+      font-weight: bold;
+  }
+  
+  .nav-wrapper a:hover {
+    cursor: pointer;
+    color: rgb(228, 54, 54);                /* Farve på linket når der hovers over det */
+  }
+  
+  .logo {
+    font-weight: bold;
+    font-size: 30px;
+  }
+  
+  .nav-items {
+    text-align: right;
+    padding-top: 10px;
+    padding-left:0;
+  }
+  
+  .burger-icon {
+    display: none;
+  }
+  
+  .list-item {
+    margin-left: 10px;
+    text-transform: uppercase;                  /* Sørger for at det er uppercase bogstaver der bruges i menuen */
+    font-weight: bold;
+    padding: 10px;
+    transition: .25s;
+  }
+  
+  .icon:after {
+    content: " +";
+    transform: rotate(45deg);
+  }
+  
+  .logo .fas,.logo strong{
+      color:black;
+      text-shadow:1px 1px 0px white;
+  }
+  
+  .wrapper {                           
+    max-width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);  /* SKABER 3 LIGE STORE SØJLER DER ALLE ER 1FR HVER */
+    grid-gap: 10px;                         /* MELLEMRUM MELLEM DE FORSKELLIGE COLUMNS */
+      grid-template-areas: 
+        "featuredMain featuredMain featuredSub"
+        "contentMain contentMain contentSub";   /* Man navngiver de forskellige blokke for derefter at sætte dem i den rækkefølge man ønsker de skal vises i */
+    color: #FFF;
+      
+  }
+  
+  .wrapper > .featured,                     /* Alle de underliggende "child-properties" fanges på denne måde, på én gang */
+  .wrapper > .sub-featured > div, 
+  .wrapper > .main-content, 
+  .wrapper > .main-sidebar {
+    padding: 20px;                          /* Giver lidt mellemrum mellem de forskellige indholdsbokse, så de ikke bare flyder sammen */
+  }
+  
+  /*Banner på index*/
+  .featured {
+    grid-area: featuredMain;
+    min-height: 500px;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1)) border-box, url(../images/madbilleder/home/banner_home.jpeg) no-repeat center center;
+    background-size: cover;
+      display:grid;
+      align-content: flex-end;
+  }
+
+  /*Banner på madplan*/
+  #madplan-banner {
+    grid-area: featuredMain;
+    min-height: 500px;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1)) border-box, url(../images/madbilleder/madplaner/banner.jpeg) no-repeat center center;
+    background-size: cover;
+      display:grid;
+      align-content: flex-end;
+  }
+
+  /*Banner på opskrift*/
+  #opskrift-banner {
+    grid-area: featuredMain;
+    min-height: 500px;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1)) border-box, url(../images/madbilleder/opskrifter/opskrifter_banner.jpeg) no-repeat center center;
+    background-size: cover;
+      display:grid;
+      align-content: flex-end;
+  }
+
+  /*Banner på basis*/
+  #basis-banner {
+    grid-area: featuredMain;
+    min-height: 500px;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1)) border-box, url(../images/madbilleder/basislager/banner_fyldte_glaskrukker.jpeg) no-repeat center center;
+    background-size: cover;
+      display:grid;
+      align-content: flex-end;
+  }
+
+  /*Banner på tema*/
+  #tema-banner {
+    grid-area: featuredMain;
+    min-height: 500px;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1)) border-box, url(../images/madbilleder/tema/fall_banner.jpeg) no-repeat center center;
+    background-size: cover;
+      display:grid;
+      align-content: flex-end;
+  }
+
+  /*Banner på tips*/
+  #tips-banner {
+    grid-area: featuredMain;
+    min-height: 500px;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1)) border-box, url(../images/madbilleder/tips/banner_tip.jpeg) no-repeat center center;
+    background-size: cover;
+      display:grid;
+      align-content: flex-end;
+  }
+
+  /*Banner på konstruktion*/
+  #konstruktion-banner {
+    grid-area: featuredMain;
+    min-height: 500px;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1)) border-box, url(../images/madbilleder/konstruktion/forberedelse_banner.jpeg) no-repeat center center;
+    background-size: cover;
+      display:grid;
+      align-content: flex-end;
+  }
+
+
+ 
+  
+  .featured h1 {
+    font-size: 36px;
+    max-width: 650px;
+  }
+  
+  .main-content,            
+  .featured,
+  .sub-featured > div,
+  .main-sidebar {
+        box-shadow:0px 0px 4px rgba(0,0,0,.25); /* Mikromal skyggeeffekt rundt om de specificerede tags - Giver layoutet dybde */
+  
+  }
+  
+  .sub-featured {
+    grid-area: featuredSub;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+  }
+  
+  .sub-featured h2, h3 {
+    margin-top: 0;
+  }
+  
+  .sub1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1)) border-box, url(../images/madbilleder/home/side_one.jpeg) no-repeat center bottom;
+    background-size: cover; /* Billedet vil fylde hele boksen, i stedet for at være for stort */
+  }
+  
+  .sub2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1)) border-box, url(../images/madbilleder/home/side_two.jpeg) no-repeat center center;
+    background-size: cover;
+  }
+  
+  .sub3 {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1)) border-box, url(../images/madbilleder/home/side_three.jpeg) no-repeat center center;
+    background-size: cover;
+  }
+
+  /* Billederne skiftes på madplan siden*/
+  
+  #mad-side1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)) border-box, url(../images/madbilleder/madplaner/indisk_dahl.png) no-repeat center bottom;
+    background-size: cover; /* Billedet vil fylde hele boksen, i stedet for at være for stort */
+  }
+  
+  #mad-side2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)) border-box, url(../images/madbilleder/madplaner/chimichurri.jpeg) no-repeat center center;
+    background-size: cover;
+  }
+  
+  #mad-side3 {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)) border-box, url(../images/madbilleder/madplaner/Tacos.jpeg) no-repeat center center;
+    background-size: cover;
+  }
+
+  /* Billederne skiftes på opskrift siden*/
+  
+ #opskrift-side1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1)) border-box, url(../images/madbilleder/opskrifter/nem_pasta.jpg) no-repeat center bottom;
+  background-size: cover; /* Billedet vil fylde hele boksen, i stedet for at være for stort */
+}
+
+#opskrift-side2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1)) border-box, url(../images/madbilleder/opskrifter/oevet_mad.jpeg) no-repeat center center;
+  background-size: cover;
+}
+
+#opskrift-side3 {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1)) border-box, url(../images/madbilleder/opskrifter/ekspert_food.jpeg) no-repeat center center;
+  background-size: cover;
+}
+  
+  /* Billederne skiftes på basislager siden*/
+  
+ #basis-side1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1)) border-box, url(../images/madbilleder/basislager/garlic.jpeg) no-repeat center bottom;
+    background-size: cover; /* Billedet vil fylde hele boksen, i stedet for at være for stort */
+  }
+  
+  #basis-side2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1)) border-box, url(../images/madbilleder/basislager/grow_your_own_herbs.jpeg) no-repeat center center;
+    background-size: cover;
+  }
+  
+  #basis-side3 {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1)) border-box, url(../images/madbilleder/basislager/herbs_and_spices2.jpeg) no-repeat center center;
+    background-size: cover;
+  }
+
+    /* Billederne skiftes på tema siden*/
+  
+ #tema-side1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1)) border-box, url(../images/madbilleder/tema/onepotpasta.jpeg) no-repeat center bottom;
+  background-size: cover; /* Billedet vil fylde hele boksen, i stedet for at være for stort */
+}
+
+#tema-side2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1)) border-box, url(../images/madbilleder/tema/toemmerburger.jpeg) no-repeat center center;
+  background-size: cover;
+}
+
+#tema-side3 {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1)) border-box, url(../images/madbilleder/tema/snacks.jpeg) no-repeat center center;
+  background-size: cover;
+}
+
+   /* Billederne skiftes på tema siden*/
+  
+   #tips-side1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1)) border-box, url(../images/madbilleder/tips/opbevaring_af_laks1.jpeg) no-repeat center bottom;
+    background-size: cover; /* Billedet vil fylde hele boksen, i stedet for at være for stort */
+  }
+  
+  #tips-side2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1)) border-box, url(../images/madbilleder/tips/how_to_handle_raw_eggs.jpeg) no-repeat center center;
+    background-size: cover;
+  }
+  
+  #tips-side3 {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1)) border-box, url(../images/madbilleder/tips/cleaning_pots.jpeg) no-repeat center center;
+    background-size: cover;
+  }
+
+   /* Billederne skiftes på konstruktion siden*/
+  
+   #konstruktion-side1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1)) border-box, url(../images/madbilleder/konstruktion/pic1.jpeg) no-repeat center bottom;
+    background-size: cover; /* Billedet vil fylde hele boksen, i stedet for at være for stort */
+  }
+  
+  #konstruktion-side2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1)) border-box, url(../images/madbilleder/konstruktion/pic2.jpeg) no-repeat center center;
+    background-size: cover;
+  }
+  
+  #konstruktion-side3 {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1)) border-box, url(../images/madbilleder/konstruktion/pic3.jpeg) no-repeat center center;
+    background-size: cover;
+  }
+
+
+  .main-content{
+      grid-area: contentMain;
+      z-index: 100;
+      background-color:rgba(255,255,255,.35); /* Farven på baggrunden og en opacity på .35% */
+      color:#444;
+          line-height:2em;  /* Linje mellemrum - Dette gør det lettere at læse længere tekster. */
+  }
+
+ 
+
+  .main-sidebar{                  /* Nyhedsbrev */
+      grid-area: contentSub;
+      background-color:rgba(255,255,255,.35);
+      color:#444;
+      line-height:2em;
+  
+  }
+  
+  .email-digest-subscription{    /* Nyhedsbrev */
+      font-size:1em;
+      background-color: #fbfbfb;
+      border: #e1e8ed solid 1px;
+      border-radius: 4px;
+      padding: 20px;
+      margin-bottom: 50px;
+  }
+  
+  
+  .footer {
+    display: grid;                                  /* Det er et grid for sig selv */
+    background: linear-gradient(#333, rgba(0, 0, 0, 0.6)), url(../images/baggrund/skaerebraet_2.png) no-repeat center bottom;
+    background-size: cover;
+    margin: auto;
+    margin-top: 10px;
+    grid-template-columns: minmax(20px, 300px) minmax(20px, 300px) minmax(20px, 300px) minmax(20px, 300px); /* 4 søjler med str. min.20px og max 300px */
+    justify-content: center;                        /* Sørger for at indholdet er centreret og ikke strækkes, i takt med at footer delen strækkes */
+    grid-template-rows: 1fr 1fr;                    /* Der skal være 2 søjler, derfor 1fr 1fr */
+    background-color: #333;
+    color: #ccc;
+  }
+  
+  
+  .footer > div{                                  /* Footer (parent) - divs (childs) */
+        padding:25px;
+  
+  }
+  .copyright {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    grid-column: 1/5;
+  }
+  
+  .footer-list > li {
+    display: block;
+  }
+  
+  /* TABLET MEDIA QUERY */
+  @media screen and (max-width: 950px) {
+    .wrapper {
+      grid-template-areas:                          /* Ændring af grid-layoutet, ændres til dette ved tablet-br.poitnt*/
+        "featuredMain featuredMain featuredMain"
+        "featuredSub featuredSub featuredSub" 
+        "contentMain contentMain contentSub";
+    color: #FFF;
+    }
+  
+    .sub-featured {
+      grid-template-columns: repeat(3, 1fr);        /* Sørger for at layoutet af disse er i kolonner i stedet for på række*/
+    }
+  
+    .nav-items {
+      grid-column: 1/5;                             /*Fylder nu hele bjælken i stedet for kun noget af den - ca 70% som er default indstillingen*/
+      text-align: center;                           /* Centreret tekst */
+      line-height: 3;                               /* Sætter afstanden mellem linjerne i burger menuen/menu-ikonerne, så der er plads til at ramme hver menu-navn */
+    }
+  
+    .logo {
+      grid-column: 1/5;                             /* Lige som menu-punkterne, flyttes logoet også - op ovenover menuen og centreres */
+      text-align: center;
+    }
+  
+    .nav-wrapper {                                  /* Margin fjernes på tablet-versionen */
+      margin-top: 0;
+    }
+  }
+  
+  /* MOBILE MEDIA QUERY */
+  @media screen and (max-width: 700px) {
+    .logo {
+      grid-column: 1/3;                             /* Logoet fylder mere på mobil - fra 1-3  (den er 5 lang)*/
+      padding-top: 7px;
+      line-height: 3;  
+    }
+  
+    .nav-items {
+      grid-column: 1/5;                             /* de fylder nu den fulde længe */
+      text-align: center;
+    }
+      
+      .nav-items li {
+      display:block;                                /* Display ændres fra "display:inline" til "display:blok" - så nu placeres de oven på */
+    }
+  
+    .burger-icon {
+      grid-column: 4/5;
+      justify-self: end;
+      border: 2px solid #333;
+      color: #333;
+      padding: 10px;
+      font-weight: bold;
+      border-radius: 3px;
+    }
+    .burger-icon:hover {
+      cursor: pointer;
+    }
+      
+    .featured h1 {
+      font-size: 30px;
+    }
+  
+     .wrapper {
+      grid-template-areas:                          /* Ændring af grid-layoutet, ændres til dette ved mobil-br.poitnt*/
+        "featuredMain featuredMain featuredMain"    /* Det er denne orden man ønsker at få vist kolonnerne i. Der kan byttes om på rækkefølgen*/
+        "contentMain contentMain contentMain"
+        "featuredSub featuredSub featuredSub" 
+        "contentSub contentSub contentSub";
+        color: #FFF;
+    }
+    
+  .mobile-hide {                /* "hide" og "show" skal bruges i javascript for at vise eller skjule*/
+      display: none;
+    }
+  
+  .mobile-show{                 /* "hide" og "show" skal bruges i javascript for at vise eller skjule*/
+      display:block;
+  }
+  
+    .burger-icon {
+      display: inline-block;
+    }
+  
+    .footer > div{          /* Dette vælger alle "childs" af footer propertien og de kaldes alle "div" i dette tilfælde */
+      grid-column: 1/5;
+    }
+  
+    .sub-featured {
+       grid-template-columns: 1fr;
+    }
+  }  
+
+ /* MOBILE MEDIA QUERY */
+  @media screen and (max-width: 450px) {
+    .logo {
+      grid-column: 1/3;                             /* Logoet fylder mere på mobil - fra 1-3  (den er 5 lang)*/
+      padding-top: 7px;
+      line-height: 3;  
+    }
+
+    .burger-icon {
+      grid-column: 3/5;
+      justify-self: end;
+      border: 2px solid #333;
+      color: #333;
+      padding: 10px;
+      font-weight: bold;
+      border-radius: 3px;
+    }
+  }
