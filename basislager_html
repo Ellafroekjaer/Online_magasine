@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <title>MadPaaSU - Hvad er et basislager og hvad indeholder det?</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"> <!--retter layoutet til ift browsertype-->
+    <link rel="stylesheet" href="../madblad/css/magasin_style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous"> <!--Open source webside med iconer, gør at jeg kan bruge deres ikoner-->
+    <link href="https://fonts.googleapis.com/css?family=Prompt" rel="stylesheet"> <!--DEN VALGTE GOOGLE FONT-->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script> <!--Tillader mig at kunne åbne/lukke min navbar-->
+    <script src="../madblad/js_online_mag.js"></script>      <!--Javascript-->
+
+</head>
+
+<!--NAVIGATIONSBAR - START-->
+
+<body>
+    <nav class="nav-wrapper">                                                       <!--PARENT ELEMENT-->
+        <div class="logo" title="Madplaner og inspiration til din hverdag">                                         <!--CHILD-->
+            <i class="fas fa-utensils"></i> <strong>Mad På SU</strong> 
+        </div>
+            <div class="burger-icon"><i class="fas fa-bars"></i> MENU</div>         <!--CHILD-->
+            <ul class="nav-items main-nav mobile-hide">                             <!--CHILD-->
+                <li class="list-item"><a href="../madblad/index.html" title="Forside" >Home</a></li>
+                <li class="list-item"><a href="../madblad/madplan.html "title="Madplaner">Madplaner</a></li>
+                <li class="list-item"><a href="../madblad/opskrifter.html" title="Opskrifter">Opskrifter</a></li>
+                <li class="list-item"><a href="#" title="Basislager">Basislager</a></li>
+                <li class="list-item"><a href="../madblad/tema.html" title="Temaer">Temaer</a></li>
+                <li class="list-item"><a href="../madblad/tipsogtricks.html" title="Tips & Tricks">Tips & Tricks</a></li>
+            </ul>
+    </nav>
+    <!--NAVIGATIONSBAR - SLUT-->
+
+    <!--MAIN INDHOLD MED "SIDEBAR" START-->
+
+    <div class="main-wrapper">
+        <div class="wrapper">                                                               <!-- VIRKER SOM PARENT ELEMENT FOR ALT INDHOLDET-->
+            <div class="featured" id="basis-banner" title="Hvad er et basislager og hvad indeholder det?">
+                
+                <h1><em>Basislager</em></h1>
+                    
+                </div>
+                <div class="sub-featured">
+                    <div class="sub1" id="basis-side1" title="Læs vores eksperts forklaring på hvorfor vi elsker hvidløg">
+                        <a href="../madblad/underkonstruktion.html"><h3>Hvidløg - kan man få for meget?</h3></a>
+                    </div>
+
+                    <div class="sub2" id="basis-side2" title="Opstartsguide til at starte din eget vinduesurtehave" >
+                        <a href="../madblad/underkonstruktion.html"><h3>Dyrk dine egne krydderurter - og spar penge!</h3></a>
+                    </div>
+
+                    <div class="sub3" id="basis-side3" title="Stor guide til at finde de bedste krydderier.">
+                        <a href="../madblad/underkonstruktion.html"><h3>Krydderier - hvilke skal jeg vælge?</h3></a>
+                    </div>
+                </div>
+
+                <div class="main-content">
+                        <h2>Hvad indeholder et basislager og hvad skal jeg bruge det til? </h2>
+                        <p> Et basislager er først og fremmest en fremragende måde at spare penge på - og hvem vil ikke gerne det? Dernæst er det en måde altid at have "lidt af hvert" ved hånden for at kunne lave mange forskellige velsmagende retter. I det store hele er det "bare" de basis-ingredienser som et hvert, velassorteret køkken bør indeholde, for at kunne frembringe forskellige simple og mere krævende retter, til enhver anledning.
+                            <br><br>
+                            Herunder kan du se vores forslag til, hvad et basislager bør indeholde. Det er desuden mange af de ingredienser vi forventer du har i køkkenet, når vi skriver opskrifterne. <br>
+                            Desuden skal du selv huske at genfylde basislageret med jævne mellemrum.
+                            Det vil selvfølgelig være oplyst når vi bruger basislager i opskrifterne.<br><br>
+
+                            Til højre på siden finder du en ganske smart omregner hvis du ikke har en vægt med hånden, og bagetrangen skulle melde sig.<br><br>
+                        </p>
+                        
+                        <ul>
+                            <h3 style="text-decoration: underline;">Krydderier/urter </h3>
+                            <i class="fas fa-utensils"></i> <li>Salt</li><br>
+                            <i class="fas fa-utensils"></i> <li>Peber</li><br>
+                            <i class="fas fa-utensils"></i> <li>Karry</li><br>
+                            <i class="fas fa-utensils"></i> <li>paprika</li><br>
+                            <i class="fas fa-utensils"></i> <li>Spidskommen</li><br>
+                            <i class="fas fa-utensils"></i> <li>Kardemomme</li><br>
+                            <i class="fas fa-utensils"></i> <li>Herbs de provence</li><br>
+                            <i class="fas fa-utensils"></i> <li>Tørrede eller frosne krydderurter</li><br>
+                            <i class="fas fa-utensils"></i> <li>Kanel</li><br>
+                            <i class="fas fa-utensils"></i> <li>Bagepulver</li><br>
+                            <i class="fas fa-utensils"></i> <li>Vaniljesukker</li><br>
+                            <i class="fas fa-utensils"></i> <li>Natron</li><br>
+                            <i class="fas fa-utensils"></i> <li>Frisk purløg og persille</li><br>
+                            <i class="fas fa-utensils"></i> <li>Kardemomme</li><br>
+                            <br>
+                        </ul>
+
+                        <ul>
+                            <h3 style="text-decoration: underline;">Kolonial </h3>
+                            <i class="fas fa-utensils"></i> <li> Sukker, brun farin & honning</li><br>
+                            <i class="fas fa-utensils"></i> <li>Hvedemel og fuldkornsmel</li><br>
+                            <i class="fas fa-utensils"></i> <li>Havregryn</li><br>
+                            <i class="fas fa-utensils"></i> <li>Cornflakes</li><br>
+                            <i class="fas fa-utensils"></i> <li>Rasp</li><br>
+                            <i class="fas fa-utensils"></i> <li>Saucejævner (eller mel+vand)</li><br>
+                            <i class="fas fa-utensils"></i> <li>Maizena majsstivelse</li><br>
+                            <i class="fas fa-utensils"></i> <li>Tomatketchup og koncentreret tomatpuré</li><br>
+                            <i class="fas fa-utensils"></i> <li>Soyasauce</li><br>
+                            <i class="fas fa-utensils"></i> <li>Sennep, remolade og Mayonaise</li><br>
+                            <i class="fas fa-utensils"></i> <li>Bouillontern</li><br>
+                            <i class="fas fa-utensils"></i> <li>Kaffe, te og kakaopulver</li><br>
+                            <i class="fas fa-utensils"></i> <li>Citronsaft</li><br>
+                            <i class="fas fa-utensils"></i> <li>Ristede løg</li><br>
+                            <i class="fas fa-utensils"></i> <li>Tørgær</li><br>
+                            <br>
+                        </ul>
+
+                        <ul>
+                            <h3 style="text-decoration: underline;">Grøntsager </h3>
+                            <i class="fas fa-utensils"></i> <li>Løg og hvidløg</li><br>
+                            
+                            <br>
+                        </ul>
+
+                        <ul>
+                            <h3 style="text-decoration: underline;">Køleskabet </h3>
+                            <i class="fas fa-utensils"></i> <li> Olie og flydende fedtstof</li><br>
+                            <i class="fas fa-utensils"></i> <li>Cremefraiche dressing</li><br>
+                            <i class="fas fa-utensils"></i> <li>Rødkål + agurkesalat</li><br>
+                            <i class="fas fa-utensils"></i> <li>Hvidløg i chiliolie (<a href="../madblad/underkonstruktion.html">kan du med fordel lave selv</a>)</li><br>
+                        </ul>
+                </div>
+
+                <div class="main-sidebar" title="Prøv vores omregningstabel">
+                    <form class="email-digest-subscription">
+                        <h1>OMREGNER</h1>
+                        <h4>Hvis ikke du lige har en vægt ved hånden, skal det ikke afholde dig fra at kaste dig ud i et nyt bageprojekt. Du kan let bruge vores omregningstabel, og på den måde afveje dine ingredienser. <br> Vi har samlet de mest brugte ingredienser her under. God fornøjelse!</h4>
+
+                        <ul>
+                            <h2 style="text-decoration: underline;">Deciliter til gram </h2>
+                            <i class="fas fa-utensils"></i> <li> 1 dl Hvedemel = 60 g</li><br>
+                            <i class="fas fa-utensils"></i> <li> 1 dl Havregryn = 30 g</li><br>
+                            <i class="fas fa-utensils"></i> <li> 1 dl kokosmel = 35 g</li><br>
+                            <i class="fas fa-utensils"></i> <li> 1 dl Kakaopulver = 45 g</li><br>
+                            <i class="fas fa-utensils"></i> <li> 1 dl Sukker = 85 g</li><br>
+                            <i class="fas fa-utensils"></i> <li> 1 dl Brun farin = 60 g</li><br>
+                            <i class="fas fa-utensils"></i> <li> 1 dl Flormelis = 50 g</li><br>
+                            <i class="fas fa-utensils"></i> <li> 1 dl Sirup = 140 g</li><br>
+                            <i class="fas fa-utensils"></i> <li> 1 dl Perlesukker = 80 g</li><br>
+                            <i class="fas fa-utensils"></i> <li> 1 dl Honning = 140 g</li><br>
+                            <i class="fas fa-utensils"></i> <li> 1 dl Hele hasselnødder = 60 g</li><br>
+                            <i class="fas fa-utensils"></i> <li> 1 dl Hele mandler = 60 g</li><br>
+                            <i class="fas fa-utensils"></i> <li> 1 dl Olie = 90 g</li><br>
+                            <i class="fas fa-utensils"></i> <li> 1 dl Smør(fast) = 95 g</li><br>
+                            <i class="fas fa-utensils"></i> <li> 1 dl Smør(flydende) = 90 g</li><br>
+                        </ul>
+
+                        <ul>
+                            <h2 style="text-decoration: underline;">Spsk til gram </h2>
+                            <i class="fas fa-utensils"></i><li> 1 spsk Hvedemel = 10g</li><br>
+                            <i class="fas fa-utensils"></i><li> 1 spsk Havregryn = 5g</li><br>
+                            <i class="fas fa-utensils"></i><li> 1 spsk Kokosmel = 5g</li><br>
+                            <i class="fas fa-utensils"></i><li> 1 spsk Kakaopulver = 7g</li><br>
+                            <i class="fas fa-utensils"></i> <li> 1 spsk Sukker = 15g</li><br>
+                            <i class="fas fa-utensils"></i><li> 1 spsk Brun farin = 9g</li><br>
+                            <i class="fas fa-utensils"></i><li> 1 spsk Flormelis = 8g</li><br>
+                            <i class="fas fa-utensils"></i> <li> 1 spsk Sirup = 20g</li><br>
+                            <i class="fas fa-utensils"></i><li> 1 spsk Perlesukker = 12g</li><br>
+                            <i class="fas fa-utensils"></i><li> 1 spsk Honning = 20g</li><br>
+                            <i class="fas fa-utensils"></i><li> 1 spsk Olie = 14g</li><br>
+                            <i class="fas fa-utensils"></i><li> 1 spsk Smør(fast) = 14g</li><br>
+                            <i class="fas fa-utensils"></i><li> 1 spsk Smør(flydende) = 13g</li><br>  
+                        </ul>
+
+                        <ul>
+                            <h2 style="text-decoration: underline;">Tsk til gram </h2>
+                            <i class="fas fa-utensils"></i><li> 1 spsk Hvedemel = 3g</li><br>
+                            <i class="fas fa-utensils"></i><li> 1 spsk Havregryn = 1.5g</li><br>
+                            <i class="fas fa-utensils"></i><li> 1 spsk Kokosmel = 2g</li><br>
+                            <i class="fas fa-utensils"></i><li> 1 spsk Kakaopulver = 2.5g</li><br>
+                            <i class="fas fa-utensils"></i><li> 1 spsk Sukker = 4g</li><br>
+                            <i class="fas fa-utensils"></i><li> 1 spsk Brun farin = 3g</li><br>
+                            <i class="fas fa-utensils"></i><li> 1 spsk Flormelis = 3g</li><br>
+                            <i class="fas fa-utensils"></i><li> 1 spsk Sirup = 7g</li><br>
+                            <i class="fas fa-utensils"></i><li> 1 spsk Perlesukker = 4g</li><br>
+                            <i class="fas fa-utensils"></i><li> 1 spsk Honning = 7g</li><br>
+                            <i class="fas fa-utensils"></i><li> 1 spsk Olie = 5g</li><br>
+                            <i class="fas fa-utensils"></i><li> 1 spsk Smør(fast) = 5g</li><br>
+                            <i class="fas fa-utensils"></i><li> 1 spsk Smør(flydende) = 4g</li><br>
+                        </ul>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--MAIN INDHOLD MED "SIDEBAR"- SLUT-->
+
+
+    <!--FOOTER INDHOLD - START-->
+
+    <footer class="footer">
+        <div class="foot1">
+            <h3 class="logo">Mad På SU</h3>
+            <p>Opdigtetvej nr. 43</p>
+            <p>Aarhus, Danmark</p>
+            <p>+45 56987293</p>
+            <p>Kontakt@madpaasu.dk</p>
+        </div>
+    
+        <div class="foot2">
+            <h4>REDAKTIONENS VALG</h4>
+            <ul class="fa-ul social-footer">
+            <li><span class="fa-li" ><i class="fas fa-utensils"></i></span><a href="../madblad/underkonstruktion.html">Isbåde</a></li>
+            <li><span class="fa-li"><i class="fas fa-utensils"></i></span><a href="../madblad/underkonstruktion.html">Snacks</a></li>
+            <li><span class="fa-li"><i class="fas fa-utensils"></i></span><a href="../madblad/underkonstruktion.html">Butterdej</a></li>
+            <li><span class="fa-li"><i class="fas fa-utensils"></i></span><a href="../madblad/underkonstruktion.html">Fiskefilet</a></li>
+            </ul>
+        </div>
+    
+        <div class="foot3">
+            <h4>POPULÆRE OPSKRIFTER</h4>
+            <ul class="fa-ul social-footer">
+                <li><span class="fa-li" ><i class="fas fa-utensils"></i></span><a href="../madblad/underkonstruktion.html">Giftkage med chokolade og nøddekrokant</a></li>
+                <li><span class="fa-li"><i class="fas fa-utensils"></i></span><a href="../madblad/underkonstruktion.html">Heksemuffins med nødder og is</a></li>
+                <li><span class="fa-li"><i class="fas fa-utensils"></i></span> <a href="../madblad/underkonstruktion.html">Chokoladekage med glasur</a></li>
+                <li><span class="fa-li"><i class="fas fa-utensils"></i></span><a href="../madblad/underkonstruktion.html">Grønsagswok med dampet fisk og ris</a></li>
+                </ul>
+        </div>
+    
+        <div class="foot4">
+            <h4>POPULÆRE TEMAER</h4>
+            <ul class="fa-ul social-footer">
+                <li><span class="fa-li" ><i class="fas fa-utensils"></i></span><a href="../madblad/underkonstruktion.html">Påske</a></li>
+                <li><span class="fa-li"><i class="fas fa-utensils"></i></span><a href="../madblad/underkonstruktion.html">Halloween</a></li>
+                <li><span class="fa-li"><i class="fas fa-utensils"></i></span><a href="../madblad/underkonstruktion.html">Jul</a></li>
+                <li><span class="fa-li"><i class="fas fa-utensils"></i></span><a href="../madblad/underkonstruktion.html">Nytår</a></li>
+                </ul>
+        </div>
+    
+        <p class="copyright">MadPaaSU &copy; 2020</p>
+        </footer>
+
+     <!--FOOTER INDHOLD - SLUT-->
+</body>
+</html>
