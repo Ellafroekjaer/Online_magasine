@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <title>MadPaaSU - Madplan for uge 42</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"> <!--retter layoutet til ift browsertype-->
+    <link rel="stylesheet" href="../madblad/css/magasin_style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous"> <!--Open source webside med iconer, gør at jeg kan bruge deres ikoner-->
+    <link href="https://fonts.googleapis.com/css?family=Prompt" rel="stylesheet"> <!--DEN VALGTE GOOGLE FONT-->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script> <!--Tillader mig at kunne åbne/lukke min navbar-->
+    <script src="../madblad/js_online_mag.js"></script>      <!--Javascript-->
+
+</head>
+
+<!--NAVIGATIONSBAR - START-->
+
+<body>
+    <nav class="nav-wrapper">                                                       <!--PARENT ELEMENT-->
+        <div class="logo" title="Madplaner og inspiration til din hverdag">                                         <!--CHILD-->
+            <i class="fas fa-utensils"></i> <strong>Mad På SU</strong> 
+        </div>
+            <div class="burger-icon"><i class="fas fa-bars"></i> MENU</div>         <!--CHILD-->
+            <ul class="nav-items main-nav mobile-hide">                             <!--CHILD-->
+                <li class="list-item"><a href="../madblad/index.html" title="Forside" >Home</a></li>
+                <li class="list-item"><a href="# "title="Madplaner">Madplaner</a></li>
+                <li class="list-item"><a href="../madblad/opskrifter.html" title="Opskrifter">Opskrifter</a></li>
+                <li class="list-item"><a href="../madblad/basislager.html" title="Basislager">Basislager</a></li>
+                <li class="list-item"><a href="../madblad/tema.html" title="Temaer">Temaer</a></li>
+                <li class="list-item"><a href="../madblad/tipsogtricks.html" title="Tips & Tricks">Tips & Tricks</a></li>
+            </ul>
+    </nav>
+    <!--NAVIGATIONSBAR - SLUT-->
+
+    <!--MAIN INDHOLD MED "SIDEBAR" START-->
+
+    <div class="main-wrapper">
+        <div class="wrapper">                                                               <!-- VIRKER SOM PARENT ELEMENT FOR ALT INDHOLDET-->
+            <div class="featured" id="madplan-banner" title="Madplan for uge 42">
+                
+                    <h1 >Madplan for uge 42</h1>
+                    <span id="hero-date"> Madplan til 1 person</span> 
+                </div>
+
+                <div class="sub-featured">
+                    <div class="sub1" id="mad-side1" title="Madplan for uge 41">
+                        <a href="../madblad/underkonstruktion.html"><h3>Uge 41</h3></a> 
+                    </div>
+
+                    <div class="sub2" id="mad-side2" title="Madplan for uge 40" >
+                        <a href="../madblad/underkonstruktion.html"><h3>Uge 40</h3></a> 
+                    </div>
+
+                    <div class="sub3" id="mad-side3" title="Madplan for uge 39">
+                        <a href="../madblad/underkonstruktion.html"><h3>Uge 39</h3></a> 
+                    </div>
+                </div>
+
+                <div class="main-content">
+                    
+                   <p>Madplanerne er, som altid, fortrinsvist lavet til én person hvilket også afspejles i ingredienslisten og derfor også i prisen. Men ønsker man at lave mad til flere, kan du sagtens fordoble ingredienser og indkøb.<br>
+                    Planen indeholder to måltider: Frokost og aftensmad.<br><br>
+                    Der er fokus på at holde prisen i bund, men sundhed og økologi i top, derfor er alle råvarerne økologiske (når det er muligt) samtidigt med at vi søger at overholde kostrådene, ved at tænke retter med både kød og fisk ind. Ønsker man retter uden kød, fisk, æg eller mejeriprodukter kan man prøve denne alternative <a href="../madblad/underkonstruktion.html">Veganske madplan fra uge 39.</a><br><br>
+                    NB: Alle indkøb er foretaget i Rema1000 </p>
+                    
+                   <a href="../madblad/underkonstruktion.html"><h2 title="Opskrift og illustrationer til mandagens mad">Mandag</h2></a><img src="../madblad/images/madbilleder/madplaner/ryebread.jpeg" alt="Pasta med krydderurter" style="max-block-size: 300px;"><br>
+                    <p>
+                        Frokost: Rugbrød med tunsalat og gnavegrønt
+                        <br>
+                        Aftensmad: Indisk Dahl med naanbrød og fraiche
+                    </p>
+                
+                    <a href="../madblad/underkonstruktion.html"><h2 title="Opskrift og illustrationer til tirsdagen mad">Tirsdag</h2></a><img src="../madblad/images/madbilleder/madplaner/ryebread.jpeg" alt="Pasta med krydderurter" style="max-block-size: 300px;"><br>
+                    <p>
+                        Frokost: Rugbrød med tunsalat og gnavegrønt
+                        <br>
+                        Aftensmad: Indisk Dahl med naanbrød og fraiche
+                    </p>
+                    
+                    <a href="../madblad/underkonstruktion.html"><h2 title="Opskrift og illustrationer til onsdagens mad">Onsdag</h2></a><img src="../madblad/images/madbilleder/madplaner/chicken.jpeg" alt="Lækker indisk kyllingeret" style="max-block-size: 200px;"><br>
+                    <p>
+                        Frokost:Rugbrød med æggesalat og gnavegrønt.
+                        <br>
+                        Aftensmad: Onepot risret med chimichurri kylling
+                    </p>
+
+                    <a href="../madblad/underkonstruktion.html"><h2 title="Opskrift og illustrationer til torsdagens mad">Torsdag</h2></a><img src="../madblad/images/madbilleder/madplaner/chicken.jpeg" alt="Lækker indisk kyllingeret" style="max-block-size: 200px;"><br>
+                    <p>
+                        Frokost:Rugbrød med æggesalat og gnavegrønt.
+                        <br>
+                        Aftensmad: Onepot risret med chimichurri kylling
+                    </p>
+                    
+                    <a href="../madblad/underkonstruktion.html"><h2 title="Opskrift og illustrationer til fredagens mad">Fredag</h2></a><img src="../madblad/images/madbilleder/madplaner/koefta.jpeg" alt="Tyrkiske køfte med salat" style="max-block-size: 200px;"><br>
+                    <p>
+                        Frokost: Onepot risret med chimichurri kylling
+                        <br>
+                        Aftensmad: Køfte med tyrkisk salat og pitabrød
+                    </p>
+
+                    <a href="../madblad/underkonstruktion.html"><h2 title="Opskrift og illustrationer til lørdagens mad">Lørdag</h2></a><img src="../madblad/images/madbilleder/madplaner/koefta.jpeg" alt="Tyrkiske køfte med salat" style="max-block-size: 200px;"><br>
+                    <p>
+                        Frokost: Køfte med tyrkisk salat og pitabrød 
+                        <br>
+                        Aftensmad: Tacoskaller med spicy oksekød og hjemmelavet salsa 
+                    </p>
+
+                    <a href="../madblad/underkonstruktion.html"><h2 title="Opskrift og illustrationer til søndagens mad">Søndag</h2></a><img src="../madblad/images/madbilleder/madplaner/taco.jpeg" alt="Lækre spicy tacoskaller" style="max-block-size: 300px;"><br>
+                    <p>
+                        Frokost: Rester fra ugen. 
+                        <br>
+                        Aftensmad: Aftensmad: Tacoskaller med spicy oksekød og hjemmelavet salsa
+                    </p>
+
+                </div>
+                <div class="main-sidebar" title="Tilmed dig vores spændende nyhedsbrev">
+                    <div class="email-digest-subscription">
+                            <ul>
+                                <h2>Indkøbsliste: 221kr </h2>
+                                <h3 style="text-decoration: underline;">Brød</h3>
+                                <i class="fas fa-utensils"></i><li> 1 pk Fuldkornspita, 4 stk 4,75 k</li><br>
+                                <i class="fas fa-utensils"></i><li> 1 pk Naanbrød 9,95 kr</li><br>
+                                <i class="fas fa-utensils"></i><li> 1 pk Rugbrød, 500 g 6,50 kr</li><br>
+                            </ul>
+
+                            <ul>
+                                <h3 style="text-decoration: underline;">Frugt og grønt</h3>
+                                <i class="fas fa-utensils"></i><li> 1 Agurk 7 kr</li><br>
+                                <i class="fas fa-utensils"></i><li> 1 kg Gulerødder 7,50 kr</li><br>
+                                <i class="fas fa-utensils"></i><li> 1 Pebermix 14 kr</li><br>
+                                <i class="fas fa-utensils"></i><li> 1 Potte persille 6 kr</li><br>
+                                <i class="fas fa-utensils"></i><li> 1 kg Tomater, vej-selv 20 kr</li><br>
+                                <i class="fas fa-utensils"></i><li> 2 Æble 2 x 2 kr = 4 kr</li><br>
+                            </ul>
+                            
+                            <ul>
+                                <h3 style="text-decoration: underline;">Frost og køl</h3>
+                                <i class="fas fa-utensils"></i><li> 1 ps Fine ærter, 600 g 9,95 kr</li><br>
+                                <i class="fas fa-utensils"></i><li> 1 pk Hakket oksekød 3-7%, 400 g 27,95 kr</li><br>
+                                <i class="fas fa-utensils"></i><li> 1 pk Kyllingebrystfilet 450 g 26,95 kr</li><br>
+                                <i class="fas fa-utensils"></i><li> 4 Brunchæg 12,95 kr</li><br>
+                                <i class="fas fa-utensils"></i><li> 1 Cheasy fraiche 5%, 500 ml 12,95 kr</li><br>
+                            </ul>
+
+                            <ul>
+                                <h3 style="text-decoration: underline;">Kolonial</h3>
+                                <i class="fas fa-utensils"></i><li> 1 ds Hakkede tomater 3,95 kr</li><br>
+                                <i class="fas fa-utensils"></i><li> 1 ds Kokosmælk 8-10%, 165 ml 4,50 kr</li><br>
+                                <i class="fas fa-utensils"></i><li> 1 ds Røde kidneybønner 4,50 kr</li><br>
+                                <i class="fas fa-utensils"></i><li> 1 ps Røde linser, tørrede 16 kr</li><br>
+                                <i class="fas fa-utensils"></i><li> 1 ds Tomatpure, 140 g 2,50 kr</li><br>
+                                <i class="fas fa-utensils"></i><li> 1 ds Tun i vand, 140 g 8,95 kr</li><br>
+                            </ul>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--MAIN INDHOLD MED "SIDEBAR"- SLUT-->
+
+
+    <!--FOOTER INDHOLD - START-->
+
+    <footer class="footer">
+        <div class="foot1">
+            <h3 class="logo">Mad På SU</h3>
+            <p>Opdigtetvej nr. 43</p>
+            <p>Aarhus, Danmark</p>
+            <p>+45 56987293</p>
+            <p>Kontakt@madpaasu.dk</p>
+        </div>
+    
+        <div class="foot2">
+            <h4>REDAKTIONENS VALG</h4>
+            <ul class="fa-ul social-footer">
+            <li><span class="fa-li" ><i class="fas fa-utensils"></i></span><a href="../madblad/underkonstruktion.html">Isbåde</a></li>
+            <li><span class="fa-li"><i class="fas fa-utensils"></i></span><a href="../madblad/underkonstruktion.html">Snacks</a></li>
+            <li><span class="fa-li"><i class="fas fa-utensils"></i></span><a href="../madblad/underkonstruktion.html">Butterdej</a></li>
+            <li><span class="fa-li"><i class="fas fa-utensils"></i></span><a href="../madblad/underkonstruktion.html">Fiskefilet</a></li>
+            </ul>
+        </div>
+    
+        <div class="foot3">
+            <h4>POPULÆRE OPSKRIFTER</h4>
+            <ul class="fa-ul social-footer">
+                <li><span class="fa-li" ><i class="fas fa-utensils"></i></span><a href="../madblad/underkonstruktion.html">Giftkage med chokolade og nøddekrokant</a></li>
+                <li><span class="fa-li"><i class="fas fa-utensils"></i></span><a href="../madblad/underkonstruktion.html">Heksemuffins med nødder og is</a></li>
+                <li><span class="fa-li"><i class="fas fa-utensils"></i></span> <a href="../madblad/underkonstruktion.html">Chokoladekage med glasur</a></li>
+                <li><span class="fa-li"><i class="fas fa-utensils"></i></span><a href="../madblad/underkonstruktion.html">Grønsagswok med dampet fisk og ris</a></li>
+                </ul>
+        </div>
+    
+        <div class="foot4">
+            <h4>POPULÆRE TEMAER</h4>
+            <ul class="fa-ul social-footer">
+                <li><span class="fa-li" ><i class="fas fa-utensils"></i></span><a href="../madblad/underkonstruktion.html">Påske</a></li>
+                <li><span class="fa-li"><i class="fas fa-utensils"></i></span><a href="../madblad/underkonstruktion.html">Halloween</a></li>
+                <li><span class="fa-li"><i class="fas fa-utensils"></i></span><a href="../madblad/underkonstruktion.html">Jul</a></li>
+                <li><span class="fa-li"><i class="fas fa-utensils"></i></span><a href="../madblad/underkonstruktion.html">Nytår</a></li>
+                </ul>
+        </div>
+    
+        <p class="copyright">MadPaaSU &copy; 2020</p>
+        </footer>
+
+     <!--FOOTER INDHOLD - SLUT-->
+</body>
+</html>
